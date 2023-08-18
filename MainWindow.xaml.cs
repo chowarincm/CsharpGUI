@@ -29,9 +29,7 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //int dd = 365;
-            //int sum = ;
-            //int t = 
+         
             MessageBox.Show("ระบบได้คำนวนแล้ว");
             txtTatal.Text = (int.Parse(txtSum.Text) / (int.Parse(txtIn.Text) - int.Parse(txtOut.Text))).ToString();
         }
